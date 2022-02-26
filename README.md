@@ -30,9 +30,7 @@ whether applicants will be successful if funded by Alphabet Soup.
 
 #### What variable(s) are neither targets nor features, and should be removed from the input data?
     Many feature columns were later converted to "dummy" variables using the "one hot encoder" method from scikit-learn . That is the reason the number of input 
-features. Number of unique values from each column was calculated using the nunique() method which enabled us to bucket into "other" column (to reduce the number of dummy columns that would result when converting categorical variables to numerical format). A filtered list was created to only include values from the column which were not used much(Chosen value =500). In addition list one hot encoder was used for numerical format conversion needed for neural network models. 
-
-    There was an attempt made to improve performance by dropping 'SPECIAL_CONSIDERATIONS' column but did not help much.      
+features. Number of unique values from each column was calculated using the nunique() method which enabled us to bucket into "other" column (to reduce the number of dummy columns that would result when converting categorical variables to numerical format). A filtered list was created to only include values from the column which were not used much(Chosen value =500). In addition list one hot encoder was used for numerical format conversion needed for neural network models. There was an attempt made to improve performance by dropping 'SPECIAL_CONSIDERATIONS' column but did not help much.      
   
 #### Compiling, Training, and Evaluating the Model
 
@@ -74,12 +72,14 @@ What steps did you take to try and increase model performance?
 
  Third Attempt-Option 1
  Changed activation function to "tanh" and kept everything else the same(Neurons and hidden layers) 
+
   ![AlphabetSoupCharity_3a](Images/AlphabetSoupCharity_3a.PNG)
 
   ![AlphabetSoupCharity_3a1](Images/AlphabetSoupCharity_3a1.PNG)
  
  Third Attempt-Option 2
  Changed activation function to "relu" and increased neurons to 100 , 50 anf 20 for the 3 hidden layers 
+
   ![AlphabetSoupCharity_3b](Images/AlphabetSoupCharity_3b.PNG)
 
   ![AlphabetSoupCharity_3b1](Images/AlphabetSoupCharity_3b1.PNG)
@@ -88,6 +88,6 @@ What steps did you take to try and increase model performance?
 ### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
     To summarize, deep neural network machine learning model produced a binary classifier in predicting whether loaning to a given applicant will produce successful 
-  results. Accuracy never reached 75% even after 4 attempts of optimization. 
-    It would be recommended to try another new supervised learning classification model like ensemble-based random forest classifier.
+  results. Accuracy never reached 75% even after 4 attempts of optimization. It would be recommended to try another new supervised learning classification model like
+  ensemble-based random forest classifier.
  
