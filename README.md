@@ -72,17 +72,20 @@ What steps did you take to try and increase model performance?
 
  Third Attempt-Option 1
  Changed activation function to "tanh" and kept everything else the same(Neurons and hidden layers) 
-
+ 
   ![AlphabetSoupCharity_3a](Images/AlphabetSoupCharity_3a.PNG)
 
-  ![AlphabetSoupCharity_3a1](Images/AlphabetSoupCharity_3a1.PNG)
+    
+
+  ![AlphabetSoupCharity-3a1](Images/AlphabetSoupCharity-3a1.PNG)
+
  
  Third Attempt-Option 2
  Changed activation function to "relu" and increased neurons to 100 , 50 anf 20 for the 3 hidden layers 
 
-  ![AlphabetSoupCharity_3b](Images/AlphabetSoupCharity_3b.PNG)
+  ![AlphabetSoupCharity-3b](Images/AlphabetSoupCharity-3b.PNG)
 
-  ![AlphabetSoupCharity_3b1](Images/AlphabetSoupCharity_3b1.PNG)
+  ![AlphabetSoupCharity-3b1](Images/AAlphabetSoupCharity-3b1.PNG)
 
 
 ### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
