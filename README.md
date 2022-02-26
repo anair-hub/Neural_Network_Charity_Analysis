@@ -2,8 +2,7 @@
   Neural_Network_Charity_Analysis
 
 ### Overview of the analysis: Explain the purpose of this analysis.
-     Using machine learning and neural networks, features in the provided dataset will be leveraged to help Beks create a binary classifier that  predicts whether 
-   applicants will be successful if funded by Alphabet Soup.
+     Using machine learning and neural networks, features in the provided dataset will be leveraged to help Beks create a binary classifier that  predicts whether applicants will be successful if funded by Alphabet Soup.
 
 ### Results: Using bulleted lists and images to support your answers, address the following questions.
 
@@ -38,8 +37,7 @@
    ![AlphabetSoupCharity_1a](Images/AlphabetSoupCharity_1a.PNG) 
 
 #### What variable(s) are neither targets nor features, and should be removed from the input data?
-      Many feature columns were later converted to "dummy" variables using the "one hot encoder" method from scikit-learn . That is the reason the number of input 
-   features. Number of unique values from each column was calculated using the nunique() method which enabled us to bucket into "other" column (to reduce the number of dummy columns that would result when converting categorical variables to numerical format). A filtered list was created to only include values from the column which were not used much(Chosen value =500). In addition list one hot encoder was used for numerical format conversion needed for neural network models. There was an attempt made to improve performance by dropping 'SPECIAL_CONSIDERATIONS' column but did not help much.      
+      Many feature columns were later converted to "dummy" variables using the "one hot encoder" method from scikit-learn . That is the reason the number of input    features. Number of unique values from each column was calculated using the nunique() method which enabled us to bucket into "other" column (to reduce the number of dummy columns that would result when converting categorical variables to numerical format). A filtered list was created to only include values from the column which were not used much(Chosen value =500). In addition list one hot encoder was used for numerical format conversion needed for neural network models. There was an attempt made to improve performance by dropping 'SPECIAL_CONSIDERATIONS' column but did not help much.      
   
 #### Compiling, Training, and Evaluating the Model
 
@@ -94,12 +92,12 @@ What steps did you take to try and increase model performance?
 
   ![AlphabetSoupCharity-3b](Images/AlphabetSoupCharity-3b.PNG)
 
-  ![AlphabetSoupCharity-3b1](Images/AAlphabetSoupCharity-3b1.PNG)
+
+  ![AlphabetSoupCharity-3b1](Images/AlphabetSoupCharity-3b1.PNG)
+
 
 
 ### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
-     To summarize, deep neural network machine learning model produced a binary classifier in predicting whether loaning to a given applicant will produce successful 
-   results. Accuracy never reached 75% even after 4 attempts of optimization. It would be recommended to try another new supervised learning classification model like
-   ensemble-based random forest classifier.
+     To summarize, deep neural network machine learning model produced a binary classifier in predicting whether loaning to a given applicant will produce successful   results. Accuracy never reached 75% even after 4 attempts of optimization. It would be recommended to try another new supervised learning classification model like ensemble-based random forest classifier.
  
