@@ -53,6 +53,8 @@ How many neurons, layers, and activation functions did you select for your neura
 Were you able to achieve the target model performance?
    From this first neural network model design, accuracy was less than 75% which was expected based on the information in the module. There were multiple attempts made to improve and maximum that could be achieved was upto 72.23.
 
+  ![AlphabetSoupCharity](Images/AlphabetSoupCharity.PNG)
+  
 What steps did you take to try and increase model performance?
 
   First Attempt:
